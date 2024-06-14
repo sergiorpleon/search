@@ -2,30 +2,34 @@
 <html lang="en">
 
 <head>
-    <title>Search</title>
+    <title>Images</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header>
         <div>
             <div>
-                <a href="image.html">Images</a>
-                <a href="advanced.html">Advanced</a>
+                <a href="index.html">Google Search</a>
             </div>
         </div>
     </header>
     <section id="content">
-        <form action="https://google.com/search">
-            <img src="img/google.png" height="100">
+        <form action="https://www.google.com/search">
+            <div>
+                <img src="img/google.png" height="100">
+                <span class="imagetext">Images</span>
+            </div>
             <div class="search">
                 <img src="img/search.png" height="20">
                 <input type="text" name="q">
+                <input type="hidden" name="sclient" value="img">
+                <input type="hidden" name="udm" value="2">
+
             </div>
             <div class="buttons">
-                <input type="submit" value="Google Search">
-                <input class="RNmpXc" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit"
-                    jsaction="trigger.kWlxhc" data-ved="0ahUKEwiAq_y5o9aGAxX9STABHb97AFcQ19QECB0">
+                <input type="submit" value="Image Search">
             </div>
         </form>
     </section>
